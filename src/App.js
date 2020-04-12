@@ -16,7 +16,7 @@ function App() {
     <Router>
       <Layout>
         <Switch>
-          <Route path="/sing_in">
+          <Route path="/">
             <SingIn/>
           </Route>
           <Route path="/sing_up">

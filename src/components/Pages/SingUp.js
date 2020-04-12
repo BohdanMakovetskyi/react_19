@@ -111,7 +111,7 @@ class SingUp extends Component {
                 </Check>
                 <Button onClick={this.remember}>SING UP</Button>
                 <br />
-                <Link style = {{color: 'rgb(89, 197, 197)',fontSize:'10px', marginLeft: '50px'}} to='/sing_in' >Already have an account? Sing in</Link>
+                <Link style = {{color: 'rgb(89, 197, 197)',fontSize:'10px', marginLeft: '50px'}} to='/' >Already have an account? Sing in</Link>
                 <Website >Copyrigth &copy; Your Website 2020.</Website>
             </div>
         );
