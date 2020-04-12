@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
 } from 'react-router-dom';
@@ -19,7 +19,7 @@ function App() {
           <Route path="/">
             <SingIn/>
           </Route>
-          <Route path="/react_19/sing_up">
+          <Route path="/sing_up">
             <SingUp />
           </Route>
         </Switch>

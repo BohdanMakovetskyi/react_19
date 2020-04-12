@@ -63,7 +63,7 @@ class SingIn extends Component {
                 <Button>SING IN</Button>
                 <div>
                     <a style={{ fontSize: '10px', color: 'rgb(89, 197, 197)' }}>Forgot password ?</a>
-                    <Link style={{ color: 'rgb(89, 197, 197)', fontSize: '10px', marginLeft: '50px' }} to='/react_19/sing_up' className='link'>Don't have an account? Sign up</Link>
+                    <Link style={{ color: 'rgb(89, 197, 197)', fontSize: '10px', marginLeft: '50px' }} to='/sing_up' className='link'>Don't have an account? Sign up</Link>
                 </div>
                 <Website>Copyrigth &copy; Your Website 2020.</Website>
             </div>
