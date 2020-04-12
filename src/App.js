@@ -19,7 +19,7 @@ function App() {
           <Route path="/">
             <SingIn/>
           </Route>
-          <Route path="/sing_up">
+          <Route path="/react_19/sing_up">
             <SingUp />
           </Route>
         </Switch>
