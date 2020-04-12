@@ -16,11 +16,11 @@ function App() {
     <Router>
       <Layout>
         <Switch>
-          <Route path="/">
-            <SingIn/>
-          </Route>
           <Route path="/sing_up">
             <SingUp />
+          </Route>
+          <Route path="/">
+            <SingIn />
           </Route>
         </Switch>
       </Layout>
